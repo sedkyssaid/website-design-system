@@ -14,8 +14,17 @@
 
 /* Base */
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PT Sans", sans-serif;
 }
 
 h1 {
