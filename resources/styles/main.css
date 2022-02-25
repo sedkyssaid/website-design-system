@@ -11,3 +11,9 @@
 --rosewood: hsla(0, 85%, 18%, 1);
 --teal: hsla(180, 44%, 35%, 1);
 --fluorescent-blue: hsla(180, 94%, 47%, 1); */
+
+/* Base */
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
