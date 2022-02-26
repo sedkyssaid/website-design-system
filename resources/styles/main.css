@@ -54,3 +54,39 @@ h6 {
 p {
   font-size: 1em;
 }
+
+.container {
+  display: block;
+}
+.panel {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  min-width: 320px;
+  max-width: 400px;
+  padding: 0 10px;
+}
+
+.panel__description {
+  max-width: 400px;
+}
+
+/* Colors */
+.panel--medium-turquoise {
+  background-color: #59dedeff;
+}
+
+.panel--tart-orange {
+  background-color: #ff4242ff;
+}
+
+.panel--rosewood {
+  background-color: #570707ff;
+}
+
+.panel--teal {
+  background-color: #338282ff;
+}
+
+.panel--florescent-blue {
+  background-color: #07e8e8ff;
+}
