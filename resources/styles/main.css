@@ -60,9 +60,15 @@ h6 {
 p {
   font-size: 1em;
 }
-#colors {
-  width: 100%;
-  height: 100%;
+
+header {
+  display: inline;
+  position: fixed;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
 }
 
 /* Container */
