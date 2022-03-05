@@ -54,21 +54,26 @@ h6 {
 p {
   font-size: 1em;
 }
-
-.panel {
-  border: 1px solid transparent;
-  border-radius: 10px;
+#colors {
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+}
+.container  {
+  display: inline;
+}
+.panel {
+  border-radius: 10px;
+  margin: 0.75em;
+  padding: 10px;
   display: block;
 }
 
-.panel__description {
-  max-width: 400px;
+.panel--white-text {
+  color: #fff;
 }
 
 /* Colors */
+
 .panel--medium-turquoise {
   background-color: #59dedeff;
 }
