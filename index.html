@@ -14,24 +14,27 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
             rel="stylesheet">
-        <!-- <link rel="stylesheet" href="/resources/styles/normalize.css"> -->
+        <link rel="stylesheet" href="/resources/styles/normalize.css">
         <link rel="stylesheet" href="/resources/styles/main.css">
     </head>
 
     <body>
-        <header>
+        <header class="navbar">
             <a href="/"><img class="logo" src="./resources/images/sx3-logo.png"
                     alt="Sx3 displayed over a maroon background"></a>
-            <h1>Sx3 Style Guide</h1>
-            <nav class="navigation">
-                <a href="#colors">Colors</a>
-                <a href="#fonts">Fonts</a>
-                <a href="#text-styles">Text Styles</a>
+            <nav class="container__small">
+                <ul class="menu">
+                    <li><a href="#colors">Colors</a></li>
+                    <li><a href="#fonts">Fonts</a></li>
+                    <li><a href="#text-styles">Text Styles</a></li>
+                </ul>
             </nav>
         </header>
         <main>
+            <h1>Sx3. An Unopnionated Style Guide.</h1>
+            <h2>The style guide created as a Codecademy Challenge Project.</h2>
             <section id="colors">
-                <h2>Colors</h2>
+                <h3>Colors</h3>
                 <div class="container">
                     <div class="panel panel--medium-turquoise panel--white-text">
                         <h4>Medium Turquoise</h4>
@@ -77,7 +80,7 @@
             </section>
             <section id="fonts">
                 <div class="container">
-                    <h2>Fonts</h2>
+                    <h3>Fonts</h3>
                     <div class="panel panel__font panel--noto-sans">
                         <h4>Noto Sans</h4>
                         <p class="panel--regular">The quick brown fox jumps over the lazy dog.</p>
@@ -95,7 +98,7 @@
                 </div>
             </section>
             <section id="text-styles">
-                <h2>Text Styles</h2>
+                <h3>Text Styles</h3>
                 <div class="panel panel__text-style">
                     <h1>H1: Heading</h1>
                     <ul class="panel__atributes">

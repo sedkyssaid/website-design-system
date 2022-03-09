@@ -13,6 +13,11 @@
 --fluorescent-blue: hsla(180, 94%, 47%, 1); */
 
 /* Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Noto Sans", sans-serif;
   font-size: 16px;
@@ -61,19 +66,30 @@ p {
   font-size: 1em;
 }
 
-header {
-  display: inline;
-  position: fixed;
+a {
+  vertical-align: middle;
+}
+
+.navbar {
+  background-color: hsla(0, 85%, 18%, 0.5);
+  padding: 10px;
 }
 
 .logo {
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
 }
 
-/* Container */
-.container {
+.menu li {
   display: inline;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+/* Containers */
+.container__small {
+  display: inline-block;
 }
 
 /* Panel */
