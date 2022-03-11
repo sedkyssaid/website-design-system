@@ -70,8 +70,12 @@ a {
   vertical-align: middle;
 }
 
-.navbar {
+/* Header and Footer */
+.navbar,
+.footer {
   background-color: hsla(0, 85%, 18%, 0.5);
+}
+.navbar {
   padding: 10px;
 }
 
@@ -83,7 +87,6 @@ a {
 .menu li {
   display: inline;
   padding: 5px;
-  
 }
 
 .menu li a {
@@ -94,6 +97,13 @@ a {
 .menu li a:hover {
   color: #ff424f;
 }
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
 /* Containers */
 .container__small {
   display: inline-block;
