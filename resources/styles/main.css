@@ -125,7 +125,7 @@ a {
   vertical-align: middle;
 }
 
-.panel__title  {
+.panel__title {
   margin-bottom: 10px;
 }
 
@@ -158,6 +158,7 @@ a {
 /* Colors */
 .panel--medium-turquoise {
   background-color: #59dedeff;
+  color: #000;
 }
 
 .panel--tart-orange {
@@ -174,6 +175,7 @@ a {
 
 .panel--florescent-blue {
   background-color: #07e8e8ff;
+  color: #000;
 }
 
 /* Fonts */
