@@ -94,8 +94,8 @@ a {
   color: #fff;
 }
 
-.menu li a:hover {
-  color: #ff424f;
+.menu--underline:hover {
+  text-decoration: underline;
 }
 
 .footer {
@@ -105,16 +105,27 @@ a {
 }
 
 /* Containers */
-.container__small {
-  display: inline-block;
+.container {
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.container__content {
+  width: 100%;
 }
 
 /* Panel */
 .panel {
+  display: inline-block;
   border-radius: 10px;
   margin: 0.75em;
-  padding: 10px;
-  display: block;
+  padding: 1%;
+  min-height: 150px;
+  vertical-align: middle;
+}
+
+.panel__description {
+  width: 320px;
 }
 
 .panel--regular {
