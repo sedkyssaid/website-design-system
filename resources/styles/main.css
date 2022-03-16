@@ -63,6 +63,11 @@ h6 {
   font-weight: 400;
 }
 
+li {
+  list-style: none;
+  margin-bottom: 2.5px;
+}
+
 p {
   font-size: 1em;
 }
@@ -124,9 +129,8 @@ a {
   max-width: 600px;
 }
 
-.section-title {
+.section__title {
   margin: 0.25em 0.75em;
-  
 }
 
 /* Panel */
@@ -174,9 +178,19 @@ a {
 .hero {
   height: 100%;
   width: 100%;
-  background-color: #59dedeff;
+  background-color: #338282ff;
+  padding: 10% 0;
+  color: #fff;
 }
 
+.hero__title,
+.hero__sub-title {
+  margin-left: 0.75em;
+}
+
+.hero__title {
+  margin-bottom: 10px;
+}
 
 /* Colors */
 .panel--medium-turquoise {
