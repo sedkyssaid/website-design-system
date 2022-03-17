@@ -87,6 +87,7 @@ a {
   text-decoration: none;
   color: #000;
   display: inline-block;
+  text-align: center;
 }
 
 .btn--primary {
