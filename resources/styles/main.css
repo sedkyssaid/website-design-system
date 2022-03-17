@@ -78,11 +78,15 @@ a {
 
 .btn {
   padding: 10px 50px;
+  margin: 0.25em 0.75em;
   border-radius: 5%;
   height: 50px;
   vertical-align: middle;
   border: 1px solid #f4242f;
   font-size: 1.125em;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
 }
 
 .btn--primary {
@@ -180,6 +184,10 @@ a {
 
 .container__content--background--teal {
   background-color: #338282ff;
+}
+
+.container__content--margin {
+  margin: 20px 0 0 0;
 }
 /* Panel */
 .panel {
