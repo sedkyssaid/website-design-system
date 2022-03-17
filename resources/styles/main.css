@@ -138,6 +138,10 @@ a {
   max-width: 600px;
 }
 
+.container__content--small--left-margin {
+  margin-left: 0.75em;
+}
+
 .container__content-background-color {
   padding: 5% 0;
 }
