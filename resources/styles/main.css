@@ -124,17 +124,21 @@ a {
   height: 50px;
 }
 
-.menu li {
+.nav {
+  display: inline-block;
+}
+
+.nav__menu li {
   display: inline;
   padding: 5px;
 }
 
-.menu li a {
+.nav__menu li a {
   text-decoration: none;
   color: #fff;
 }
 
-.menu--underline:hover {
+.nav__menu--underline:hover {
   text-decoration: underline;
 }
 
